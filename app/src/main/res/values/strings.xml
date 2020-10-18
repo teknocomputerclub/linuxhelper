@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Linux Helper</string>
+    <string name="file_commands">List of file commands</string>
+    <string name="main_activity_title_screen">Pulled from man pages and other sources</string>
+    <string name="file_commands_details">File Commands</string>
+    <string name="file_compression_details">File Compression</string>
+    <string name="secure_shell_details">Secure Shell</string>
+    <string name="file_transfer_details">File Transfer</string>
+    <string name="package_management_details">Package Management</string>
+    <string name="network_details">Network</string>
+    <string name="directory_details">Directory Traverse</string>
+    <string name="search_details">Search</string>
+    <string name="file_permissions_details">File Permissions</string>
+    <string name="system_commands_details">System Commands</string>
+    <string name="process_related_details">Process Related</string>
+    <string name="hardware_details">Hardware</string>
+    <string name="disk_usage_details">Disk Usage</string>
+    <string name="user_details">Users</string>
+    <string name="openWebPageBtn">Command Line Fu!</string>
+    <string name="bottomText">TechKwonDo@outlook.com\nCheat Sheet v0.1.1</string>
+</resources>

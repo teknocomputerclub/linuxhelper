@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8A621"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/item_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Add commands to a custom list" />
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0288D1"
+            android:shadowColor="#9A5A5A"
+            android:text="add"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:background="@drawable/fadedfist"
+        android:id="@+id/items_list"
+        style="@style/Widget.AppCompat.ListView.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/categoryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#0288D1"
+        android:text="Command Categories"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="2"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/bottomText"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+</LinearLayout>
